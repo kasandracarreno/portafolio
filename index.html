@@ -65,6 +65,10 @@
     }
     .main-action {
       margin-bottom: 24px;
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      flex-wrap: wrap;
     }
     .cta-button {
       background-color: #1e293b;
@@ -79,6 +83,21 @@
     }
     .cta-button:hover {
       background-color: #334155;
+    }
+    .cta-button-secondary {
+      background-color: #ffffff;
+      color: #1e293b;
+      border: 2px solid #1e293b;
+      padding: 12px 28px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.95rem;
+      transition: all 0.2s;
+      display: inline-block;
+    }
+    .cta-button-secondary:hover {
+      background-color: #f1f5f9;
     }
     .footer-contact {
       display: flex;
@@ -130,8 +149,9 @@
     </div>
 
     <div class="main-action">
-      <!-- Cambia "proyectos.html" por el nombre exacto de tu archivo de proyectos -->
       <a href="proyectos.html" class="cta-button">Ver Proyectos de Impacto</a>
+      <!-- Botón añadido para ir a la página de contacto -->
+      <a href="contacto.html" class="cta-button-secondary">Ir a Contacto</a>
     </div>
 
     <div class="footer-contact">
